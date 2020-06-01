@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UDFOIXMT4/uNacPl7ryFk7fcWRuwiMhHjz8oUr3sXKW9w3o09f9IlK1k+AAcftbETq9MZdcH/utDVY/Nn9CC3A==",
+  "dgSpecHash": "rPU2h+aqMlzMmXMyRSNbH5cjv6Tg6wawTSn8S5OJcBI1SazdfmrCpK5PcLcdzUc+XZU7TZ9tNq0yDLEDfY9i8w==",
   "success": true,
-  "projectFilePath": "D:\\LapTrinhMang\\NETWORK_PROGRAMING_CLIENT-master\\Client.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MSI\\Desktop\\NETWORK_CLIENT\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

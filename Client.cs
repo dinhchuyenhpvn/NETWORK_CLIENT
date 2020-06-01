@@ -24,16 +24,16 @@ public class Client
             Stream stream = client.GetStream();
 
             Console.WriteLine("Connected to Server.");
-            
+
             while (true)
             {
 
-                
+
                 var reader = new StreamReader(stream);
                 var writer = new StreamWriter(stream);
                 writer.AutoFlush = true;
 
-                Console.WriteLine("Please enter the number (0-10) : ");
+                Console.WriteLine("Please enter the number (0-10) / dig[domain.com] / curl[domain.com/myfile.htm] : ");
 
                 // 2. send
                 string str = Console.ReadLine();
@@ -45,7 +45,7 @@ public class Client
                 Console.WriteLine(str);
                 if (str.ToUpper() == "BYE")
                     break;
-            }                                                                          
+            }
             // 4. close
             stream.Close();
             client.Close();
